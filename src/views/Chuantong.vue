@@ -47,4 +47,12 @@
         line-height: 300px;
         margin: 0;
     }
+    .te{width:100%  !important; font-size:19px !important; margin-bottom:25px  !important; }
+    .tw{width:100%  !important; font-size:18px !important; margin-bottom:25px !important;}
+    td p{
+        width: 100% !important;;
+        font-size:18px !important;
+        line-height:25px;
+    }
+    .txt_area{padding-left:30px !important;}
 </style>

@@ -2,7 +2,7 @@
   <div>
     <el-row>
       <el-col :span="5"><img :src="imgIcon" style="width: 100%"></el-col>
-      <el-col :span="19" >
+      <el-col :span="19" style="z-index: 1000">
         <el-menu router
               :default-active="this.$route.path"
               class="el-menu-demo"
@@ -66,13 +66,15 @@
 
 <style>
   #navv{
-    margin-top: 2.5%;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-top: 2%;
+    padding: 0px 12px;
+ /*   margin-left: 1%;
+    margin-right: 1%;*/
   }
   #nav2{
-    margin-top: 2.5%;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-top: 2%;
+
+    /*margin-left: 1%;
+    margin-right: 1%;*/
   }
 </style>

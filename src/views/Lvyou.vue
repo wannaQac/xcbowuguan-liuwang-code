@@ -1,12 +1,15 @@
 <template>
     <div id="content">
+        <div class="banner-ld" ng-controller="clgkbanner">
+            <img src="../../static/pic23.png" width="100%">
+        </div>
         <div class="ui" id="cndl">
             <div class="mainbox-ld ng-scope" ng-controller="cndl">
                 <div class="title-ld">
                     <div class="title-1 ng-binding">到村路线</div>
                 </div>
                 <div class="text-ld width-ld fl-ld"><p ng-bind-html="content|to_trusted" class="ng-binding">
-                    <p>1.&nbsp;公共交通："在中国石油大学（华东）乘坐青西快线到达西海岸汽车总站候车室后转黄岛K17路到六汪枢纽下车。<br></p>
+                    <p class="te">1.&nbsp;公共交通："在中国石油大学（华东）乘坐青西快线到达西海岸汽车总站候车室后转黄岛K17路到六汪枢纽下车。<br></p>
                 </div>
                 <div class="s-banner fr-ld" style=" padding-top:26px">
                     <imgqh data="imgs" class="ng-isolate-scope"><div class="swiper-container swiper-container-horizontal">
@@ -54,4 +57,12 @@
 
 <style scoped>
 
+    .te{width:100%  !important; font-size:19px !important; margin-bottom:25px  !important; }
+    .tw{width:100%  !important; font-size:18px !important; margin-bottom:25px !important;}
+    td p{
+        width: 100% !important;;
+        font-size:18px !important;
+        line-height:25px;
+    }
+    .txt_area{padding-left:30px !important;}
 </style>

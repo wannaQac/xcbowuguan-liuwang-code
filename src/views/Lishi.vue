@@ -16,7 +16,7 @@
                 </div>
             </div>
         </div>
-        <div class="ui" id="renwu">
+        <!--<div class="ui" id="renwu">
             <div class="mainbox-ld"  ng-controller="clls">
                 <div class="title-ld">
                     <div class="title-1">历史事件</div>
@@ -40,7 +40,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         <!--<div class="ui" id="shijian">
             <div class="mainbox-ld"  ng-controller="clls">
                 <div class="title-ld">
@@ -86,4 +86,12 @@
 <style scoped>
     @import "../../static/css/model.css";
     @import "../../static/css/main-new.css";
+    .te{width:100%  !important; font-size:19px !important; margin-bottom:25px  !important; }
+    .tw{width:100%  !important; font-size:18px !important; margin-bottom:25px !important;}
+    td p{
+        width: 100% !important;;
+        font-size:18px !important;
+        line-height:25px;
+    }
+    .txt_area{padding-left:30px !important;}
 </style>

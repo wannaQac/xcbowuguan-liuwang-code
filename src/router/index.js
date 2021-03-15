@@ -82,11 +82,11 @@ const routes = [
   },
   {
     path: '/Lishi',
-    name: '历史文化',
+    name: '历史口述',
     component: Lishi,
     show: true,
     meta:{
-      title:'历史文化'
+      title:'历史口述'
     },
   },
   {
@@ -109,11 +109,11 @@ const routes = [
   },
   {
     path: '/Minsu',
-    name: '民俗文化',
+    name: '乡土文化',
     component: Minsu,
     show: true,
     meta:{
-      title:'民俗文化'
+      title:'乡土文化'
     },
   },
   {
